@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/newpfp.webp">
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+	<link href="nav.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Bob Brown</title>
+</head>
+
+<body>	
+	<div class="nav" id="nav">
+		<a href="#intro">awkward introduction</a>
+		<a href="#projects">things i've made</a>
+		<a href="#contact">contact me...?</a>
+		<a class="icon" href="javascript:void(0);" onclick="responsiveNav()">
+			<i class="fa fa-bars"></i>
+		</a>
+	</div>
+
+	<div class="home" id="intro">
+		<h2>so... hi 👀</h2>
+		<p>i guess i'll introduce myself?</p>
+	</div>
+
+	<div class="box">
+        <div class="box-item">
+			<p class="no">Music 🎸</p>
+			<p>This <em>is</em> a developer profile, but I love rock and metal music. This site itself would not have been made without the existence of <button onclick="showBands()" class="bands">these bands.</button></p>
+		</div>
+        <div class="box-item">
+			<p class="no">Coding 🧑‍💻</p>
+			<p>I also enjoy coding random and useless shit to either make life easier or piss people off. I love Python, like HTML/CSS, tolerate MySQL, and adore React.</p>
+		</div>
+        <div class="box-item">
+			<p class="no">Sports 🎾</p>
+			<p>I love playing tennis and will watch pretty much any televised sport if I'm bored. That is, with the exception of golf. If you actually watch golf... just leave. </p>
+		</div>
+	</div>
+
+	<div id="popup">
+		<div id="popupInfo">
+		</div>
+	  </div>
+
+	<div class="home" id="projects">
+		<h4>✨ yay... fantastic... moving on... ✨</h4>
+		<p>here's some of the random coding projects i've spent too much time on</p>
+	</div>
+
+	<div class="box">
+        <div class="box-item projects" style="background-color: #4a88ed">
+			<a class="project-link" href="https://bullyme.xyz" target="_blank">BullyMe</a>
+			<p>Just some Discord bot that is sometimes fun and sometimes super sketchy.</p>
+		</div>
+        <div class="box-item projects" style="background-color: rgb(247, 55, 55);">
+			<a class="project-link" href="https://sogiai.com" target="_blank">SOGI AI</a>
+			<p>Fun little React site made during Pride Month 2022 :]</p>
+		</div>
+        <div class="box-item projects" style="background-color: #ea4e1b;">
+			<a class="project-link" href="https://whenislun.ch" target="_blank">WhenIsLun.ch</a>
+			<p>Somewhat functioning timer with horrendous styling.</p>
+		</div>
+	</div>
+	<div class="box">
+        <div class="box-item projects" style="background-color: purple">
+			<a class="project-link" href="https://hw.whenislun.ch" target="_blank">Homework Time</a>
+			<p>About half finished and not very helpful in the first place.</p>
+		</div>
+		<div class="box-item projects" style="background-color: #216bf5">
+			<a class="project-link" href="https://lfm.bob-brown.com" target="_blank">LinksFor.Me</a>
+			<p>Links stored in a hardly functioning database and more questionable styling.</p>
+		</div>
+        <div class="box-item projects" style="background-color: rgb(113, 56, 39)">
+			<a class="project-link" href="https://vinyl.bob-brown.com" target="_blank">Record Player</a>
+			<p>A li'l Flask web app that connects to your Spotify account and shows what song you're playing.</p>
+		</div>
+	</div>
+
+	<div class="box">
+        <div class="box-item projects" style="background-color: rgb(240, 138, 21)">
+			<a class="project-link" href="https://discordbotlist.com/bots/server-wars" target="_blank">Server Wars</a>
+			<p>A not-so-feature-rich Discord bot that lets you advertise your server by playing games and invading others.</p>
+		</div>
+		<div class="box-item projects" style="background-color: rgb(0, 182, 0)">
+			<a class="project-link" href="#" target="_blank">This</a>
+			<p>You <em>are</em> enjoying this site... right?</p>
+		</div>
+	</div>
+
+	<div class="home" id="contact">
+		<h4>mmk... now this 🤷‍♂️</h4>
+		<p>if you wanna contact me for some reason...</p>
+	</div>
+
+	<div class="box" id="contacts">
+        <div class="box-item">
+			<p class="no">💬 Discord 💬</p>
+			<br>
+			<a target="_blank" href="https://discord.com/users/893939197537288265">Bob Brown#4849</a>
+		</div>
+        <div class="box-item">
+			<p class="no">✉️ Email ✉️</p>
+			<br>
+			<a href="mailto:bob.brown.the.dev@gmail.com">bob@bob-brown.com</a>
+		</div>
+        <div class="box-item">
+			<p class="no">🐈‍⬛ Github 🐈‍⬛</p>
+			<br>
+			<a href="https://github.com/BobBrown1" target="_blank">BobBrown1</a>
+		</div>
+	</div>
+
+	<div class="footer">
+		<p>© 2023 Bob Brown</p>
+	</div>
+
+	<script src="script.js"></script>
+		
+</body>
+</html>

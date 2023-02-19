@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+body {
+	margin: 0;
+	font-family: Roboto Mono;
+	background-color: black;
+	color: white;
+}
+
+/* Home */
+
+.home {
+	text-align: center;
+}
+
+.home h2 {
+	font-size: 72px;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.home h4 {
+	font-size: 50px;
+	margin-top: 30px;
+}
+
+.home p {
+	margin-top: -55px;
+	font-size: 32px;
+}
+
+/* Rules */
+
+.no {
+	font-size: 46px;
+	margin: 0 auto -15px auto;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 30px;
+    color: white;
+    margin: 0px 5px 10px 5px;
+    justify-content: center;
+}
+
+.box-item {
+    padding: 15px 10px;
+    font-size: 20px;
+    margin: 20px;
+    flex: 1 0 25%;
+    background-color: black;
+    text-align: center;
+}
+
+.bands {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-family: Roboto Mono;
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+#popup {
+  position: fixed;
+  z-index: 1;
+  background-color: white;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.8);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  padding-top: 100px;
+  left: 0;
+  display: none;
+}
+
+#popupInfo {
+  background-color: black;
+  margin: auto;
+  padding: 28px;
+  width: 75%;
+  color: white;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 8px;
+}
+
+#popupInfo a  {
+  color: white;
+}
+
+.projects {
+  border-radius: 8px;
+  border: 1px solid white;
+}
+
+.project-link {
+  font-size: 46px;
+  color: white;
+}
+
+#contacts a {
+  color: white;
+  font-size: 26px;
+}
+
+.footer {
+  font-size: 24px;
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+    .box {
+      flex-direction: column;
+    }
+}
+
+@media screen and (max-width:495px) {
+  #contacts a {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width:411px) {
+  #contacts .no {
+    font-size: 30px;
+  }
+}
